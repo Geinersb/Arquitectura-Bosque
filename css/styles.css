@@ -383,3 +383,30 @@ img {
 }
 
 /* FOOTER */
+.footer{
+    height: 50rem;
+    background-image: url(../img/footer_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    color: var(--blanco);
+}
+
+.footer a {
+    color: var(--blanco);
+    font-size: 2rem;
+}
+
+.copyright{
+    background-color: var(--negro);
+    text-align: center;
+    color: var(--blanco);
+    margin: 5rem 0 0 0;
+    font-size: 2rem;
+    padding: 1rem;
+}
